@@ -1,0 +1,15 @@
+# Deploy package (regenerated on demand)
+seconai_site.zip
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies / build
+node_modules/
+.netlify/
+
+# Unrelated scratch files (remove these lines if you DO want them tracked)
+Sales_Dashboard.html
+Sales_Data.xlsx
