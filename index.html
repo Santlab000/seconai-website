@@ -98,6 +98,19 @@
   .card p{color:var(--slate);font-size:15.5px}
   .card .tag{display:inline-block;margin-top:16px;font-size:13px;font-weight:600;color:var(--blue-600)}
 
+  /* TESTIMONIALS */
+  .reviews{background:var(--bg-soft)}
+  .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:56px}
+  .testi{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px 28px;display:flex;flex-direction:column;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+  .testi:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(15,23,42,.08);border-color:#C4B5FD}
+  .stars{display:flex;gap:3px;margin-bottom:16px}
+  .stars svg{width:18px;height:18px;fill:#F59E0B;stroke:none}
+  .testi blockquote{margin:0;color:var(--ink,#0F172A);font-size:16px;line-height:1.6;font-weight:500}
+  .who{display:flex;align-items:center;gap:13px;margin-top:24px}
+  .avatar{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;color:#fff;flex:0 0 auto;background:linear-gradient(135deg,#7C3AED,#DB2777)}
+  .who .name{font-weight:700;font-size:14.5px;letter-spacing:-.2px}
+  .who .role{color:var(--slate);font-size:13px}
+
   /* HOW IT WORKS */
   .how{background:var(--bg-soft)}
   .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:56px}
@@ -179,6 +192,7 @@
     <nav class="nav-links" id="navlinks">
       <a href="#products">Products</a>
       <a href="#how">How it works</a>
+      <a href="#reviews">Reviews</a>
       <a href="pricing.html">Pricing</a>
       <a href="about.html">About</a>
       <a href="#contact">Contact</a>
@@ -350,6 +364,59 @@
         <div class="metric"><div><div class="cap">Faster invoice payment</div></div><div class="big">2.3×</div></div>
         <div class="metric"><div><div class="cap">Leads captured after hours</div></div><div class="big">+38%</div></div>
         <div class="metric"><div><div class="cap">Setup time</div></div><div class="big">15 min</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="block reviews" id="reviews">
+  <div class="wrap">
+    <div class="eyebrow">What our customers say</div>
+    <h2>Small businesses, big results</h2>
+    <p class="section-sub">Owners across industries use SeconAI to win back time and serve customers better. Here's what they tell us.</p>
+    <div class="testi-grid">
+      <div class="testi">
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+        </div>
+        <blockquote>"SeconDesk answers every call after hours now. We've captured leads we used to lose completely — it paid for itself in the first week."</blockquote>
+        <div class="who">
+          <div class="avatar">MR</div>
+          <div><div class="name">Maria Rodriguez</div><div class="role">Owner, Bright Smile Dental</div></div>
+        </div>
+      </div>
+      <div class="testi">
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+        </div>
+        <blockquote>"Invoices that used to sit for a month get paid in days. SeconCash chases them politely so I don't have to — our cash flow has never been steadier."</blockquote>
+        <div class="who">
+          <div class="avatar">JT</div>
+          <div><div class="name">James Thompson</div><div class="role">Founder, Thompson Plumbing Co.</div></div>
+        </div>
+      </div>
+      <div class="testi">
+        <div class="stars" aria-label="5 out of 5 stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+        </div>
+        <blockquote>"I finally understand my numbers. I ask SeconInsights a question in plain English and get a clear answer — no spreadsheets, no guessing."</blockquote>
+        <div class="who">
+          <div class="avatar">AP</div>
+          <div><div class="name">Aisha Patel</div><div class="role">Owner, The Corner Boutique</div></div>
+        </div>
       </div>
     </div>
   </div>
