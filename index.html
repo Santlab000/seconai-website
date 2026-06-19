@@ -98,19 +98,6 @@
   .card p{color:var(--slate);font-size:15.5px}
   .card .tag{display:inline-block;margin-top:16px;font-size:13px;font-weight:600;color:var(--blue-600)}
 
-  /* TESTIMONIALS */
-  .reviews{background:var(--bg-soft)}
-  .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:56px}
-  .testi{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px 28px;display:flex;flex-direction:column;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
-  .testi:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(15,23,42,.08);border-color:#C4B5FD}
-  .stars{display:flex;gap:3px;margin-bottom:16px}
-  .stars svg{width:18px;height:18px;fill:#F59E0B;stroke:none}
-  .testi blockquote{margin:0;color:var(--ink,#0F172A);font-size:16px;line-height:1.6;font-weight:500}
-  .who{display:flex;align-items:center;gap:13px;margin-top:24px}
-  .avatar{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;color:#fff;flex:0 0 auto;background:linear-gradient(135deg,#7C3AED,#DB2777)}
-  .who .name{font-weight:700;font-size:14.5px;letter-spacing:-.2px}
-  .who .role{color:var(--slate);font-size:13px}
-
   /* HOW IT WORKS */
   .how{background:var(--bg-soft)}
   .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:56px}
@@ -192,7 +179,6 @@
     <nav class="nav-links" id="navlinks">
       <a href="#products">Products</a>
       <a href="#how">How it works</a>
-      <a href="#reviews">Reviews</a>
       <a href="pricing.html">Pricing</a>
       <a href="about.html">About</a>
       <a href="#contact">Contact</a>
@@ -255,6 +241,12 @@
     <p class="section-sub">Purpose-built tools for the jobs small businesses actually need done — ready in minutes, no technical team required.</p>
     <div class="grid">
       <div class="card">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l3-3 3 3 5-6"/><path d="M16 5h4v4"/></svg></div>
+        <h3>SeconTrade</h3>
+        <p>An agentic AI platform that links to your Robinhood account to research markets, watch your positions, and propose trades — you review and approve every order before anything is placed.</p>
+        <span class="tag">Agentic trading →</span>
+      </div>
+      <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
         <h3>SeconDesk</h3>
         <p>An AI front desk that answers calls, texts, and website chats 24/7 — booking appointments and capturing leads while you sleep.</p>
@@ -283,12 +275,6 @@
         <h3>SeconCRM</h3>
         <p>A CRM that keeps itself tidy — logging interactions, scoring leads, and reminding you who to follow up with next.</p>
         <span class="tag">Sales →</span>
-      </div>
-      <div class="card">
-        <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 14l3-3 3 3 5-6"/><path d="M16 5h4v4"/></svg></div>
-        <h3>SeconTrade</h3>
-        <p>An agentic AI platform that links to your Robinhood account to research markets, watch your positions, and propose trades — you review and approve every order before anything is placed.</p>
-        <span class="tag">Agentic trading →</span>
       </div>
       <div class="card">
         <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg></div>
@@ -369,59 +355,6 @@
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
-<section class="block reviews" id="reviews">
-  <div class="wrap">
-    <div class="eyebrow">What our customers say</div>
-    <h2>Small businesses, big results</h2>
-    <p class="section-sub">Owners across industries use SeconAI to win back time and serve customers better. Here's what they tell us.</p>
-    <div class="testi-grid">
-      <div class="testi">
-        <div class="stars" aria-label="5 out of 5 stars">
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-        </div>
-        <blockquote>"SeconDesk answers every call after hours now. We've captured leads we used to lose completely — it paid for itself in the first week."</blockquote>
-        <div class="who">
-          <div class="avatar">MR</div>
-          <div><div class="name">Maria Rodriguez</div><div class="role">Owner, Bright Smile Dental</div></div>
-        </div>
-      </div>
-      <div class="testi">
-        <div class="stars" aria-label="5 out of 5 stars">
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-        </div>
-        <blockquote>"Invoices that used to sit for a month get paid in days. SeconCash chases them politely so I don't have to — our cash flow has never been steadier."</blockquote>
-        <div class="who">
-          <div class="avatar">JT</div>
-          <div><div class="name">James Thompson</div><div class="role">Founder, Thompson Plumbing Co.</div></div>
-        </div>
-      </div>
-      <div class="testi">
-        <div class="stars" aria-label="5 out of 5 stars">
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-        </div>
-        <blockquote>"I finally understand my numbers. I ask SeconInsights a question in plain English and get a clear answer — no spreadsheets, no guessing."</blockquote>
-        <div class="who">
-          <div class="avatar">AP</div>
-          <div><div class="name">Aisha Patel</div><div class="role">Owner, The Corner Boutique</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- CTA -->
 <section class="cta">
   <div class="wrap">
@@ -469,7 +402,7 @@
         </div>
         <p class="desc">Practical AI products that help small businesses save time, win customers, and grow.</p>
       </div>
-      <div><h5>Products</h5><a href="#products">SeconDesk</a><a href="#products">SeconCash</a><a href="#products">SeconInsights</a><a href="#products">SeconReach</a></div>
+      <div><h5>Products</h5><a href="#products">SeconTrade</a><a href="#products">SeconDesk</a><a href="#products">SeconCash</a><a href="#products">SeconInsights</a><a href="#products">SeconReach</a></div>
       <div><h5>Company</h5><a href="about.html">About</a><a href="pricing.html">Pricing</a><a href="#why">Why SeconAI</a><a href="#contact">Contact</a></div>
       <div><h5>Get started</h5><a href="#contact">Free demo</a><a href="mailto:hello@seconai.com">hello@seconai.com</a></div>
     </div>
